@@ -48,7 +48,7 @@ Secondly, to draw the ROC curve based on the prediction results of HNMDRP by run
 	run plot_ROC(pre_HNMDRP_Results, transCD_with_unknown, 75)
 	
 Specific Instructions: In this function, you can specify the drug_number to be a number, then execute this line of code and the ROC curve is displayed in the computer screen for this drug.
-					   Here, 75 is the drug_number which is determined by the Supplementary Table S2 that have 189 drugs and its corresponding index number.
+					   Here, 75 is the drug number which is determined by the Supplementary Table S2 that have 189 drugs and its corresponding index number.
 					   When you have got pre_HNMDRP_Results results, you need only run the second line code to obtain the results of each drug.
 *******************************************************************************************************************************************************************************************
 
