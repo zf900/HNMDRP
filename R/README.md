@@ -27,7 +27,8 @@ The sixth file trans_CD_all.mat is a matrix which include known and unknown rela
 **************************************************************************************************
 
 Firstly, to demonstrate HNMDRP can achieve a good performance with best ROC and PR curve, we performing LOOCV to evaluate our method on predicting known cell line-drug associations by running the following code. 
-	
+(This process may need to take a few seconds.)
+
 	source("main.R")
 	
 which include following code:
@@ -43,7 +44,6 @@ which include following code:
 
 	source("LOOCV.R")
 	predict_result <- LOOCV(transCD, simCC, simDD, simTT, transDT, decay, min_sim)
-(This process may need to take a few seconds.)
 
 **************************************************************************************************
 
