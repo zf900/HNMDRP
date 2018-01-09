@@ -1,7 +1,7 @@
 transCD <- read.table('data/transCD.txt')
 simCC <- read.table('data/simCC.txt')
 simDD <- read.table('data/simDD.txt')
-simTT <- read.table('data/imTT.txt')
+simTT <- read.table('data/simTT.txt')
 transDT <- read.table('data/transDT.txt')
 trans_CD_all <- read.table('data/transCD_label_with_unknown.txt')
 
