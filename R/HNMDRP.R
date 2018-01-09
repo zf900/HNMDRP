@@ -1,7 +1,7 @@
 HNMDRP <- function(transCD, simCC, simDD, simTT, transDT, decay, min_sim)
 {
 	max_sim = 0.99
-  thr=1e-4
+	thr=1e-4
 
 	simCC[simCC > max_sim] = max_sim
 	simCC[simCC < min_sim] = 0
@@ -52,7 +52,7 @@ HNMDRP <- function(transCD, simCC, simDD, simTT, transDT, decay, min_sim)
 		DD2 = DD2/(((rowSums(DD2))*((colSums(DD2))))^0.5 + 0.001)
 		
 		CD2 = decay * CD1%*%DD1 + (1 - decay) * transCD
-        	DT2 = decay * DD2%*%DT1 + (1 - decay) * transDT
+        DT2 = decay * DD2%*%DT1 + (1 - decay) * transDT
 	}
 	return (CD2)
 	cat('\n')
