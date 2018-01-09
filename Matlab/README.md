@@ -21,8 +21,8 @@ MATLAB R2015a or later
 - /data/PPI_network_add_corr.mat
 - /data/cline_drug_association_network_with_unknown.mat
 
-The first file cline_drug_association_network.mat is a matrix of konwn drug sensitivity relationships between cell lines and drugs. 
-The second file drug_target_interaction_network.mat is a matrix of konwn drug molecular activities between drugs and targets.
+The first file cline_drug_association_network.mat is a matrix of known drug sensitivity relationships between cell lines and drugs. 
+The second file drug_target_interaction_network.mat is a matrix of known drug molecular activities between drugs and targets.
 The third file cline_similarity_network.mat is a matrix of cell line-cell line similarity network.
 The fourth file drug_similarity_network.mat is a matrix of drug-drug similarity network.
 The fifth file PPI_network_add_corr.mat is a matrix of target-target similarity network which is obtained by merging cell line gene expression and PPIs.
