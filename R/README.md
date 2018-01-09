@@ -67,24 +67,24 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 	| FILE NAME		|				DESCRIPTION               									|
 	=============================================================================================
 	|transCD		|The known cell line-drug associations are represented by adjacency 		|
-	|		|matrix CD, which shows binary associations between cell line and drug.		|
-	|		|1 represents cell line i are sensitive with drug j, otherwise 0.			|
+	|			|matrix CD, which shows binary associations between cell line and drug.		|
+	|			|1 represents cell line i are sensitive with drug j, otherwise 0.			|
 	---------------------------------------------------------------------------------------------
 	|transDT		|The known drug-target interactions are represented by adjacency matrix		|
-	|		|DT, which shows binary associations between drug and target.				|
-	|		|And 1 represents drug j has its corresponding target gene k,otherwise 0.	|
+	|			|DT, which shows binary associations between drug and target.				|
+	|			|And 1 represents drug j has its corresponding target gene k,otherwise 0.	|
 	---------------------------------------------------------------------------------------------
     |simCC			|The similarity network between cell line based on gene expression			|
-	|  		|profile.																	|
+	|  			|profile.																	|
 	---------------------------------------------------------------------------------------------
 	|simDD			|The similarity between drug based on drug chemical structures.				|
-	|		|       																	|
+	|			|       																	|
 	---------------------------------------------------------------------------------------------
 	|simTT			|The similarity between target genes based on PPI and correlational			|
-	|		|relationships.         									       			|
+	|			|relationships.         									       			|
 	---------------------------------------------------------------------------------------------
 	|trans_CD_all 	|Known and unknown associations between cell line and drug           	   	|
-	|		|         																	|
+	|			|         																	|
 	--------------------------------------------------------------------------------------------
 	
 ## **Mainly output variables of HNMDRP**
