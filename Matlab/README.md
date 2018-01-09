@@ -58,21 +58,21 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 	=========================================================================================================
 	| FILE NAME		| DESCRIPTION																|
 	=========================================================================================================
-	|cline_drug_association	|The known cell line-drug associations are represented by adjacency			|
+	|cline_drug_association	|The known cell line-drug associations are represented by adjacency		|
 	|network.mat		|matrix CD, which shows binary associations between cell line and drug.		|
-	|			|1 represents cell line i are sensitive with drug j, otherwise 0.			|
+	|			|1 represents cell line i are sensitive with drug j, otherwise 0.		|
 	---------------------------------------------------------------------------------------------------------
 	|drug_target_interaction|The known drug-target interactions are represented by adjacency matrix		|
-	|_network.mat		|DT, which shows binary associations between drug and target.				|
+	|_network.mat		|DT, which shows binary associations between drug and target.			|
 	|			|And 1 represents drug j has its corresponding target gene k,otherwise 0.	|
 	---------------------------------------------------------------------------------------------------------
-	|cline_similarity	|The similarity network between cell line based on gene expression			|
+	|cline_similarity	|The similarity network between cell line based on gene expression		|
 	|network.mat		|profile.																	|
 	---------------------------------------------------------------------------------------------------------
-	|drug_similarity_	|The similarity between drug based on drug chemical structures.				|
+	|drug_similarity_	|The similarity between drug based on drug chemical structures.			|
 	|_network.mat		|																			|
 	---------------------------------------------------------------------------------------------------------
-	|target_similarity	|The similarity between target genes based on PPI and correlational			|
+	|target_similarity	|The similarity between target genes based on PPI and correlational		|
 	|_network.mat		|relationships.																|
     ---------------------------------------------------------------------------------------------------------
 
@@ -81,12 +81,12 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 
 The descriptions of output variables of HNMDRP are provided below:
 
-	=====================================================================================================
+	=================================================================================================
     | VARIABLE NAME		| DESCRIPTION															|
-	=====================================================================================================
+	=================================================================================================
 	| pre_HNMDRP_Results	|The predicted results of cell line-drug associations through leave-one	|
 	|			|-out cross validation, which is used to draw ROC curve for each drug.	|																	|
-	-----------------------------------------------------------------------------------------------------
+	-------------------------------------------------------------------------------------------------
 
 	
 ## HNMDRP for users without MATLAB licenses
