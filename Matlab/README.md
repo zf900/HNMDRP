@@ -85,7 +85,7 @@ The descriptions of output variables of HNMDRP are provided below:
     | VARIABLE NAME		| DESCRIPTION								|
 	=================================================================================================
 	| pre_HNMDRP_Results	|The predicted results of cell line-drug associations through leave-one	|
-	|			|-out cross validation, which is used to draw ROC curve for each drug.	|																	|
+	|			|-out cross validation, which is used to draw ROC curve for each drug.	|
 	-------------------------------------------------------------------------------------------------
 
 	
