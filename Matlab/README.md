@@ -37,12 +37,14 @@ We provide two association network matrix with cline_drug_association_network an
 *******************************************************************************************************************************************************************************************************************
 Firstly, to demonstrate HNMDRP can achieve a good performance with best ROC and PR curve, we performing LOOCV to evaluate our method on predicting known cell line-drug associations by running the following code. 
 (This process may need to take a few hours.)
+	
 	run Pre_HNMDRP.m
 **************************************************************************************************
 
 **************************************************************************************************
 Secondly, to draw the ROC curve based on the prediction results of HNMDRP by running following code in matlab command window. 
 (This process may need to take a few seconds.)
+	
 	run plot_ROC(pre_HNMDRP_Results, transCD_with_unknown, drug_number)
 	
 Specific Instructions: In this function, you can specify the drug_number to be a number, then execute this line of code and the ROC curve is displayed in the computer screen for this drug.
