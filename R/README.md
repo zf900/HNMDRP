@@ -81,9 +81,10 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 ----------------------------------------------------------------------------------------------------
 |simTT        |The similarity between target genes based on PPI and correlational	   |
 |             |relationships.         									               |
-    ------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 |trans_CD_all |Known and unknow associations between cell line and drug           	   |
 |             |         
+----------------------------------------------------------------------------------------------------
 
 ## **Mainly output variables of HNMDRP**
 
