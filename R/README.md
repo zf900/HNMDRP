@@ -51,6 +51,7 @@ which include following code:
 
 Secondly, to draw the ROC curve based on the prediction results of HNMDRP by running following code in R command window. 
 (This process may need to take a few seconds.)
+
 	source("plot_ROC(trans_CD_all, predict_result, 75)")
 	
 Specific Instructions: In this function, you can specify the drug_number to be a number, then execute this line of code and the ROC curve is displayed in the computer screen for this drug.
