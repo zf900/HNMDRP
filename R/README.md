@@ -62,6 +62,7 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 
 ## Configurations of HNMDRP
 ### Related configuration files
+
 	=============================================================================================
 	| FILE NAME		|				DESCRIPTION               									|
 	=============================================================================================
@@ -70,11 +71,11 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 	|				|1 represents cell line i are sensitive with drug j, otherwise 0.			|
 	---------------------------------------------------------------------------------------------
 	|transDT		|The known drug-target interactions are represented by adjacency matrix		|
-	|				|DT, which shows binary associations between drug and target.   			|
+	|				|DT, which shows binary associations between drug and target.				|
 	|				|And 1 represents drug j has its corresponding target gene k,otherwise 0.	|
 	---------------------------------------------------------------------------------------------
     |simCC			|The similarity network between cell line based on gene expression			|
-	|  				|profile. 																	|
+	|  				|profile.																	|
 	---------------------------------------------------------------------------------------------
 	|simDD			|The similarity between drug based on drug chemical structures.				|
 	|				|       																	|
@@ -90,12 +91,12 @@ Specific Instructions: In this function, you can specify the drug_number to be a
 
 The descriptions of output variables of HNMDRP are provided below:
 
-	=====================================================================================================
-	| VARIABLE NAME	| DESCRIPTION                                                			|
-	=====================================================================================================
+	=========================================================================================
+	| VARIABLE NAME	| DESCRIPTION															|
+	=========================================================================================
 	| predict_result|The predicted results of cell line-drug associations through leave-one	|
-	| 				|-out cross validation, which is used to draw ROC curve for each drug.	|																	|
-	-----------------------------------------------------------------------------------------------------
+	|				|-out cross validation, which is used to draw ROC curve for each drug.	|																	|
+	-----------------------------------------------------------------------------------------
 
 	
 ## HNMDRP for users without R licenses
