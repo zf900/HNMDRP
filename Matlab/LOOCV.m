@@ -1,4 +1,4 @@
-function [predict__score] = LOOCV(transCD,simC,simD,simT,transDT,decay,min_sim)
+function [predict_score] = LOOCV(transCD,simC,simD,simT,transDT,decay,min_sim)
 A_ori = transCD;
 [scoreCD_ori,scoreDT] = HNMDRP(transCD,simC,simD,simT,transDT,decay,min_sim);
 index = find(1 == A_ori);
@@ -10,5 +10,5 @@ for i = 1:length(index)
     scoreCD_ori(index(i));
     transCD = A_ori;
 end
-predict__score = scoreCD_ori;
+predict_score = scoreCD_ori;
 
